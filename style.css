@@ -1,0 +1,334 @@
+@charset "UTF-8";
+
+.body	{font-family: '맑은 고딕', '휴먼모음T', '1훈떡볶이 R', 'THE봉숭아틴트','Apple SD Gothic Neo', sans-serif,
+       background-size: cover}
+
+
+@font-face{
+    src:url"(font/tint.ttf)"
+    font-family:tint}
+
+@font-face{
+    src:url"(font/Maplestory Bold.ttf)"
+    font-family:Maplestory Bold}
+
+@font-face{
+    src:url"(font/hanlgurum.ttf)"
+    font-family:hanlgurum}
+
+@media (min-width: 768px) {
+
+
+/* 사이트 이름 */
+.title h1 a	{color: #000000;
+	text-decoration: none}
+
+.title h1	{margin: 0;
+	font-size: 50px;
+	font-family: hanlgurum}
+
+.title h1   {text-align:center}
+
+.box1   {padding-top: 10px;
+    padding-bottom: 30px
+}
+
+.box4   {padding-top: 10px;
+    padding-bottom: 20px
+}
+
+/*개요 */
+/* summary1 */
+
+.summary1 a	{display: block;
+    width:300px;
+	background-color: #222222;
+	color: #ffffff;
+	margin-top: 72%;
+	text-align: center;
+	text-decoration: none}
+
+.summary1 a:hover	{opacity: 0.8}
+
+.summary1 h1	{margin-top: 0;
+	margin-bottom: 0;
+	font-family: bold;
+	padding-top:5px;
+	font-size: 30px;
+	font-weight: normal}
+
+.summary1 p	{margin-top: 0;
+	margin-bottom: 0;
+	font-family:'THE봉숭아틴트';
+	padding-bottom:10px;
+	font-size: 13px}
+
+
+/* summary2 */
+.summary2 a	{display: block;
+    width:300px;
+	background-color: #222222;
+	color: #ffffff;
+	margin-top: 72%;
+	text-align: center;
+	text-decoration: none}
+
+.summary2 a:hover	{opacity: 0.8}
+
+.summary2 h1	{margin-top: 0;
+	margin-bottom: 0;
+	font-family: bold;
+	padding-top:5px;
+	font-size: 30px;
+	font-weight: normal}
+
+
+.summary2 p	{margin-top: 0;
+	margin-bottom: 0;
+	font-family:'THE봉숭아틴트';
+	padding-bottom:10px;
+	font-size: 13px}
+
+/* summary3 */
+.summary3 a	{display: block;
+    width:300px;
+	background-color: #222222;
+	color: #ffffff;
+	margin-top: 72%;
+	text-align: center;
+	text-decoration: none}
+
+.summary3 a:hover	{opacity: 0.8}
+
+.summary3 i	{
+	font-size: 38px}
+
+.summary3 h1	{margin-top: 0;
+	margin-bottom: 0;
+	font-family: bold;
+	padding-top:5px;
+	font-size: 30px;
+	font-weight: normal}
+
+.summary3 p	{margin-top: 0;
+	margin-bottom: 0;
+	font-family:'THE봉숭아틴트';
+	padding-bottom:10px;
+	font-size: 13px}
+
+/* 이미지 설정 */
+.excersise  {width :300px;
+    height: 500px;
+    border-radius: 5%;
+    vertical-align:bottom;
+    filter: brightness(50%)}
+
+.app  {width :300px;
+    height: 500px;
+    border-radius: 5%;
+    text-align:center;
+    vertical-align:bottom;
+    filter: brightness(50%)}
+
+.salad  {width :300px;
+    height: 500px;
+    vertical-align:bottom;
+    border-radius: 5%;
+    filter: brightness(50%)}
+
+/* 박스 위에 이미지 올리기 */
+.box2-1 {position: relative}
+.box2-2 {position: relative;
+    float: right;}
+.box2-3 {position: relative}
+
+.summary1    {position: absolute;
+    top: 0;
+    float:0;
+}
+
+.summary2    {position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.summary3    {position: absolute;
+    top: 0;
+    left: 0;
+}
+/* box2 배경색 */
+.box2{background-color: #E2CFEB}
+
+/* 저작권 */
+.copyright p	{margin: 0;
+	color: #666666;
+	text-align:center;
+	font-size: 14px}
+
+
+.box3   {padding-top: 8px;
+    margin-bottom: 8px;
+    border-top: solid 1px #dddddd
+}
+
+.box8   {padding-top: 8px;
+    margin-bottom: 8px;
+    border-top: solid 1px #dddddd
+}
+
+/* 제목부분 내용부분 경계선 */
+.box4   {
+    border-bottom: solid 17px #E2CFEB
+}
+
+/* menu 설정*/
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+
+}
+.menu li a {
+    display: block;
+    color: #000;
+    font-size:18px;
+    font-family:'THE봉숭아틴트';
+    font-weight:600;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+.menu li a.active {
+    background-color: #E2CFEB;
+    color: white;
+}
+.menu li a:hover:not(.active) {
+    background-color: #F5F5F5;
+    color: black;
+}
+.box6   {
+    border-right: solid 1px #dddddd
+}
+.box14   {
+    border-right: solid 1px #dddddd
+}
+
+
+/* BOX2-1과 BOX2-2와 BOX2-3가로 정렬하는 설정 */
+.box2:after	{content: "";
+	display: block;
+	clear: both}
+
+.box2-0{float:left;
+    width: 11%}
+
+.box2-1	{float: left;
+	width: 24%}
+
+.box2-4 {float:left;
+    width:4%;}
+
+.box2-2	{float: left;
+	width: 24%}
+
+.box2-5 {float:left;
+    width:4%;}
+
+.box2-3	{float: left;
+	width: 24%}
+
+.box2-6 {float:left;
+    width:9%;}
+}
+
+/* imformation 페이지 */
+.corona     {vertical-align:bottom;
+    max-width=100%;
+    margin-left:8%;
+}
+
+.question    {vertical-align:bottom;
+    max-width=100%;
+}
+
+.bulguen    {vertical-align:bottom;
+    max-width=100%;
+    margin-left:8%
+}
+.myself {vertical-align:bottom;
+    max-width=100%;
+    margin-left:8%}
+
+.my {vertical-align:bottom;
+    max-width=100%;
+    margin-left:8%}
+
+.box11     {background-color: #B4C3FF}
+.box7     {background-color: #B4C3FF}
+
+.box9     {background-color: #FFFF66}
+
+.box10    {background-color: #FFE3FF}
+.box12  {background-color: #FDF5E6}
+.box13  {background-color: #FFD2D7}
+
+
+
+.comment1 {text-align: right;
+    margin-right: 5%;
+    font-family: Maplestory Bold}
+
+.comment1 h1    {font-size: 60px}
+
+.comment1 p    {font-size: 25px;
+    margin-top: -2.5%}
+
+.box9-1     {padding-top:7%}
+
+.comment2 p1    {font-size: 25px;
+    margin-top: -5%}
+
+.comment2 p2    {font-size: 40px}
+
+.comment2 {margin-left: 5%;
+    font-family: Maplestory Bold}
+
+.comment3   {text-align: center;
+    font-family: Maplestory Bold}
+
+.comment3 h1    {font-size: 60px;
+    margin-top: -1%;}
+
+.comment3 p1    {font-size: 20px}
+
+.comment3 p2    {font-size: 30px}
+
+
+/* BOX5과 BOX6를 가로 정렬하는 설정 */
+.boxA:after	{content: "";
+	display: block;
+	clear: both}
+
+.box6	{float: left;
+	width: 15%}
+
+.box7	{float: left;
+	width: 84.9%}
+
+}
+
+/* BOX14과 BOX15를 가로 정렬하는 설정 */
+.boxB:after	{content: "";
+	display: block;
+	clear: both}
+
+.box14	{float: left;
+	width: 15%}
+
+.box15	{float: left;
+	width: 84.9%}
+
+}
+
+
